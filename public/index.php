@@ -35,4 +35,5 @@ EnvHelper::set(WxpayEnv::WXPAY_MCH_ID, '1900009851');
 // 微信扫码支付的notify url
 EnvHelper::set(WxpayEnv::WXPAY_QRCD_NOTIFY_URL, 'http://example.org');
 /***************************************************************************************************/
+
 require dirname(__DIR__) . '/vendor/asbamboo/openpay/public/index.php';
