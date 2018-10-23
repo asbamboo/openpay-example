@@ -1,0 +1,34 @@
+{
+    "name": "asbamboo/openpay-example",
+    "description": "聚合支付使用示例",
+    "type": "project",
+    "require": {
+    	"php" : "^7.2",
+        "asbamboo/autoload": "^1.0",
+        "asbamboo/helper": "^1.0",
+        "asbamboo/openpay-wxpay": "^1.0",
+        "asbamboo/openpay-alipay": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.2"
+    },
+    "scripts": {
+        "openpay-scripts": [
+            "asbamboo\\openpay\\script\\Channel::generateMappingInfo"
+        ],
+        "post-install-cmd": [
+            "@openpay-scripts"
+        ],
+        "post-update-cmd": [
+            "@openpay-scripts"
+        ]
+    },
+    "authors": [
+        {
+            "name": "李春寅",
+            "email": "licy2013@aliyun.com"
+        }
+    ],
+    "license": "BSD-3-Clause",
+    "minimum-stability": "dev"
+}
