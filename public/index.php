@@ -2,12 +2,10 @@
 use asbamboo\helper\env\Env AS EnvHelper;
 use asbamboo\openpayAlipay\Env AS AlipayEnv;
 use asbamboo\openpayWxpay\Env as WxpayEnv;
-
 /***************************************************************************************************
  * 系统文件加载
  ***************************************************************************************************/
-$autoload   = require_once dirname(__DIR__) . '/vendor/asbamboo/autoload/bootstrap.php';
-$autoload->addMappingDir('asbamboo\\openpayExample\\', dirname(__DIR__));
+require_once dirname(__DIR__) . '/vendor/autoload.php';
 /***************************************************************************************************/
 
 /***************************************************************************************************
@@ -36,4 +34,8 @@ EnvHelper::set(WxpayEnv::WXPAY_MCH_ID, '1900009851');
 EnvHelper::set(WxpayEnv::WXPAY_QRCD_NOTIFY_URL, 'http://example.org');
 /***************************************************************************************************/
 
-require dirname(__DIR__) . '/vendor/asbamboo/openpay/public/index.php';
+/***************************************************************************************************
+ * 启动openpay引导程序
+ ***************************************************************************************************/
+require dirname(__DIR__) . '/vendor/asbamboo/openpay/bootstrap.php';
+/***************************************************************************************************/
