@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "content-hash": "bf034f7410f595cc442b39ef2571fdf8",
@@ -52,12 +52,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/asbamboo/autoload.git",
-                "reference": "f3edb79fb1e620b1cd71eb119f28397f90fea675"
+                "reference": "5552e4195e467a72d278ed878f3c32b97080187a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asbamboo/autoload/zipball/f3edb79fb1e620b1cd71eb119f28397f90fea675",
-                "reference": "f3edb79fb1e620b1cd71eb119f28397f90fea675",
+                "url": "https://api.github.com/repos/asbamboo/autoload/zipball/5552e4195e467a72d278ed878f3c32b97080187a",
+                "reference": "5552e4195e467a72d278ed878f3c32b97080187a",
                 "shasum": ""
             },
             "require": {
@@ -88,7 +88,7 @@
                 "source": "https://github.com/asbamboo/autoload/tree/1.0.1",
                 "issues": "https://github.com/asbamboo/autoload/issues"
             },
-            "time": "2018-10-23T12:52:23+00:00"
+            "time": "2018-10-26T09:20:13+00:00"
         },
         {
             "name": "asbamboo/di",
@@ -248,12 +248,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/asbamboo/openpay.git",
-                "reference": "dcf2691a85c8801897904970ad745c875ab90f12"
+                "reference": "81215bbd98ba7b32aed56434ef2314719c658f97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asbamboo/openpay/zipball/dcf2691a85c8801897904970ad745c875ab90f12",
-                "reference": "dcf2691a85c8801897904970ad745c875ab90f12",
+                "url": "https://api.github.com/repos/asbamboo/openpay/zipball/81215bbd98ba7b32aed56434ef2314719c658f97",
+                "reference": "81215bbd98ba7b32aed56434ef2314719c658f97",
                 "shasum": ""
             },
             "require": {
@@ -288,7 +288,7 @@
                 "source": "https://github.com/asbamboo/openpay/tree/1.0.0",
                 "issues": "https://github.com/asbamboo/openpay/issues"
             },
-            "time": "2018-10-25T12:58:48+00:00"
+            "time": "2018-10-26T09:19:08+00:00"
         },
         {
             "name": "asbamboo/openpay-alipay",
@@ -296,12 +296,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/asbamboo/openpay-alipay.git",
-                "reference": "1d52d7e9f82bd9be19022b49f760fd1802c640d7"
+                "reference": "b5675fd2bdb72b60058a92b95f90db62eb60d0ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asbamboo/openpay-alipay/zipball/1d52d7e9f82bd9be19022b49f760fd1802c640d7",
-                "reference": "1d52d7e9f82bd9be19022b49f760fd1802c640d7",
+                "url": "https://api.github.com/repos/asbamboo/openpay-alipay/zipball/b5675fd2bdb72b60058a92b95f90db62eb60d0ae",
+                "reference": "b5675fd2bdb72b60058a92b95f90db62eb60d0ae",
                 "shasum": ""
             },
             "require": {
@@ -310,10 +310,25 @@
                 "php": "^7.2"
             },
             "require-dev": {
-                "asbamboo/event": "^1.0",
-                "phpunit/phpunit": "^7.3@dev"
+                "phpunit/phpunit": "^7.2"
             },
             "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "asbamboo\\openpay-alipay\\": ""
+                }
+            },
+            "scripts": {
+                "openpay-scripts": [
+                    "asbamboo\\openpay\\script\\Channel::generateMappingInfo"
+                ],
+                "post-install-cmd": [
+                    "@openpay-scripts"
+                ],
+                "post-update-cmd": [
+                    "@openpay-scripts"
+                ]
+            },
             "license": [
                 "BSD-3-Clause"
             ],
@@ -328,7 +343,7 @@
                 "source": "https://github.com/asbamboo/openpay-alipay/tree/1.0.0",
                 "issues": "https://github.com/asbamboo/openpay-alipay/issues"
             },
-            "time": "2018-10-25T13:07:12+00:00"
+            "time": "2018-10-26T09:17:25+00:00"
         },
         {
             "name": "asbamboo/openpay-wxpay",
