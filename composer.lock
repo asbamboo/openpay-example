@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/asbamboo/api.git",
-                "reference": "798d1f401ed87c7f765d7d47e1cd66d1a5b9a121"
+                "reference": "efa818afe4dde0170801ac143eb3e32908176b1a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asbamboo/api/zipball/798d1f401ed87c7f765d7d47e1cd66d1a5b9a121",
-                "reference": "798d1f401ed87c7f765d7d47e1cd66d1a5b9a121",
+                "url": "https://api.github.com/repos/asbamboo/api/zipball/efa818afe4dde0170801ac143eb3e32908176b1a",
+                "reference": "efa818afe4dde0170801ac143eb3e32908176b1a",
                 "shasum": ""
             },
             "require": {
@@ -47,7 +47,7 @@
                 "source": "https://github.com/asbamboo/api/tree/1.0.0",
                 "issues": "https://github.com/asbamboo/api/issues"
             },
-            "time": "2019-02-26T09:04:10+00:00"
+            "time": "2019-03-01T09:00:53+00:00"
         },
         {
             "name": "asbamboo/autoload",
@@ -349,12 +349,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/asbamboo/openpay.git",
-                "reference": "d23735dabf997b8a06e5340f85d905deb00f9474"
+                "reference": "bf6500acbea2bafdc238284d0ea3c582aac957f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asbamboo/openpay/zipball/d23735dabf997b8a06e5340f85d905deb00f9474",
-                "reference": "d23735dabf997b8a06e5340f85d905deb00f9474",
+                "url": "https://api.github.com/repos/asbamboo/openpay/zipball/bf6500acbea2bafdc238284d0ea3c582aac957f3",
+                "reference": "bf6500acbea2bafdc238284d0ea3c582aac957f3",
                 "shasum": ""
             },
             "require": {
@@ -392,7 +392,7 @@
                 "source": "https://github.com/asbamboo/openpay/tree/1.0.0",
                 "issues": "https://github.com/asbamboo/openpay/issues"
             },
-            "time": "2019-02-28T06:27:30+00:00"
+            "time": "2019-03-02T03:11:21+00:00"
         },
         {
             "name": "asbamboo/openpay-alipay",
@@ -510,12 +510,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/asbamboo/router.git",
-                "reference": "49f00718cada717d8dbb9433c47ddf817f6ea2f0"
+                "reference": "50729b2304291f9695a0072751f7b68e65796138"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asbamboo/router/zipball/49f00718cada717d8dbb9433c47ddf817f6ea2f0",
-                "reference": "49f00718cada717d8dbb9433c47ddf817f6ea2f0",
+                "url": "https://api.github.com/repos/asbamboo/router/zipball/50729b2304291f9695a0072751f7b68e65796138",
+                "reference": "50729b2304291f9695a0072751f7b68e65796138",
                 "shasum": ""
             },
             "require": {
@@ -540,7 +540,7 @@
                 "source": "https://github.com/asbamboo/router/tree/1.0.1",
                 "issues": "https://github.com/asbamboo/router/issues"
             },
-            "time": "2018-10-03T13:04:37+00:00"
+            "time": "2019-03-02T05:34:35+00:00"
         },
         {
             "name": "doctrine/annotations",
