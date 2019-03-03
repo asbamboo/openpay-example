@@ -7,12 +7,15 @@ asbamboo/openpay-example
 
 简介
 ------------------------------------
+
 openpay-example 是 `asbamboo/openpay`_ 项目的具体实现，是支付宝支付、微信支付等第三方支付聚合api接口的服务端代码。
 
 演示地址：http://demo.asbamboo.com/openpay-example/public/
 
 linux下运行项目示例
 ------------------------------
+
+*必要条件: 需要安装* `composer`_ *, php7.2以上版本*
 
 ::
 
@@ -57,3 +60,4 @@ linux下运行项目示例
 在浏览器访问 http://127.0.0.1:8000
 
 .. _asbamboo/openpay: https://github.com/asbamboo/openpay
+.. _composer: https://getcomposer.org/
