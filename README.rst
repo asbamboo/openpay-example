@@ -35,7 +35,7 @@ linux下运行项目示例
 
     licy@licy-N501JW:/www$ cd openpay-example/
 
-    licy@licy-N501JW:/www/openpay-example$ ./vendor/bin/doctrine orm:schema-tool:create
+    licy@licy-N501JW:/www/openpay-example$ ./vendor/bin/asbamboo-database asbamboo:database:schema-create
 
      !                                                                                                                      
      ! [CAUTION] This operation should not be executed in a production environment!                                         
