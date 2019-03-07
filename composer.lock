@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/asbamboo/api.git",
-                "reference": "fb7a03f77369e5e524ee04b0e5c9b318596e78da"
+                "reference": "79943078a2c9deaedc8b18a1511678bf29336ad4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asbamboo/api/zipball/fb7a03f77369e5e524ee04b0e5c9b318596e78da",
-                "reference": "fb7a03f77369e5e524ee04b0e5c9b318596e78da",
+                "url": "https://api.github.com/repos/asbamboo/api/zipball/79943078a2c9deaedc8b18a1511678bf29336ad4",
+                "reference": "79943078a2c9deaedc8b18a1511678bf29336ad4",
                 "shasum": ""
             },
             "require": {
@@ -47,7 +47,7 @@
                 "source": "https://github.com/asbamboo/api/tree/1.0.0",
                 "issues": "https://github.com/asbamboo/api/issues"
             },
-            "time": "2019-03-02T06:59:27+00:00"
+            "time": "2019-03-04T01:54:35+00:00"
         },
         {
             "name": "asbamboo/autoload",
@@ -349,12 +349,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/asbamboo/openpay.git",
-                "reference": "c6943593e391eea22e03b34424f5b6833e72f813"
+                "reference": "b2eb86984f15c713b148a8adb75878a13d4dec3b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asbamboo/openpay/zipball/c6943593e391eea22e03b34424f5b6833e72f813",
-                "reference": "c6943593e391eea22e03b34424f5b6833e72f813",
+                "url": "https://api.github.com/repos/asbamboo/openpay/zipball/b2eb86984f15c713b148a8adb75878a13d4dec3b",
+                "reference": "b2eb86984f15c713b148a8adb75878a13d4dec3b",
                 "shasum": ""
             },
             "require": {
@@ -392,7 +392,7 @@
                 "source": "https://github.com/asbamboo/openpay/tree/1.0.0",
                 "issues": "https://github.com/asbamboo/openpay/issues"
             },
-            "time": "2019-03-02T06:04:12+00:00"
+            "time": "2019-03-05T12:32:36+00:00"
         },
         {
             "name": "asbamboo/openpay-alipay",
@@ -400,12 +400,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/asbamboo/openpay-alipay.git",
-                "reference": "4344c3afd339a4cbf6b1cb8fa8d32a538d102fa7"
+                "reference": "944d1dad0e43959c8f376943af45a653ece9d048"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asbamboo/openpay-alipay/zipball/4344c3afd339a4cbf6b1cb8fa8d32a538d102fa7",
-                "reference": "4344c3afd339a4cbf6b1cb8fa8d32a538d102fa7",
+                "url": "https://api.github.com/repos/asbamboo/openpay-alipay/zipball/944d1dad0e43959c8f376943af45a653ece9d048",
+                "reference": "944d1dad0e43959c8f376943af45a653ece9d048",
                 "shasum": ""
             },
             "require": {
@@ -447,7 +447,7 @@
                 "source": "https://github.com/asbamboo/openpay-alipay/tree/1.0.0",
                 "issues": "https://github.com/asbamboo/openpay-alipay/issues"
             },
-            "time": "2019-02-27T08:00:15+00:00"
+            "time": "2019-03-04T02:39:38+00:00"
         },
         {
             "name": "asbamboo/openpay-wxpay",
@@ -510,12 +510,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/asbamboo/router.git",
-                "reference": "ab41c0aede743a71cf300f0ba1c86ef0185cc58c"
+                "reference": "f1098e74ca40f7384a6d38870bef21fa4a698893"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asbamboo/router/zipball/ab41c0aede743a71cf300f0ba1c86ef0185cc58c",
-                "reference": "ab41c0aede743a71cf300f0ba1c86ef0185cc58c",
+                "url": "https://api.github.com/repos/asbamboo/router/zipball/f1098e74ca40f7384a6d38870bef21fa4a698893",
+                "reference": "f1098e74ca40f7384a6d38870bef21fa4a698893",
                 "shasum": ""
             },
             "require": {
@@ -540,7 +540,7 @@
                 "source": "https://github.com/asbamboo/router/tree/1.0.1",
                 "issues": "https://github.com/asbamboo/router/issues"
             },
-            "time": "2019-03-02T07:00:18+00:00"
+            "time": "2019-03-06T08:14:51+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -699,12 +699,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/collections.git",
-                "reference": "555e82dbe759e68b2e3d24673a66a3e59f063c01"
+                "reference": "a99d26d8fd2163c284ba55249c15fdc98c6da3b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/collections/zipball/555e82dbe759e68b2e3d24673a66a3e59f063c01",
-                "reference": "555e82dbe759e68b2e3d24673a66a3e59f063c01",
+                "url": "https://api.github.com/repos/doctrine/collections/zipball/a99d26d8fd2163c284ba55249c15fdc98c6da3b3",
+                "reference": "a99d26d8fd2163c284ba55249c15fdc98c6da3b3",
                 "shasum": ""
             },
             "require": {
@@ -760,7 +760,7 @@
                 "iterators",
                 "php"
             ],
-            "time": "2019-02-11T09:43:47+00:00"
+            "time": "2019-03-05T19:01:58+00:00"
         },
         {
             "name": "doctrine/common",
@@ -849,12 +849,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "d3d09e29d86efb9a7ea39ac9d5e0ae172b354f83"
+                "reference": "77ecc63741f353b9821e6e3a70afa6aa86cf03f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/d3d09e29d86efb9a7ea39ac9d5e0ae172b354f83",
-                "reference": "d3d09e29d86efb9a7ea39ac9d5e0ae172b354f83",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/77ecc63741f353b9821e6e3a70afa6aa86cf03f5",
+                "reference": "77ecc63741f353b9821e6e3a70afa6aa86cf03f5",
                 "shasum": ""
             },
             "require": {
@@ -923,7 +923,7 @@
                 "php",
                 "queryobject"
             ],
-            "time": "2019-02-26T17:13:59+00:00"
+            "time": "2019-03-05T08:47:05+00:00"
         },
         {
             "name": "doctrine/event-manager",
@@ -2524,12 +2524,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "96d4ec40751a6c0f5f2ccdb1e1662913065cadac"
+                "reference": "90cff07c1fbadf8ffb404774ad98c845632b443f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/96d4ec40751a6c0f5f2ccdb1e1662913065cadac",
-                "reference": "96d4ec40751a6c0f5f2ccdb1e1662913065cadac",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/90cff07c1fbadf8ffb404774ad98c845632b443f",
+                "reference": "90cff07c1fbadf8ffb404774ad98c845632b443f",
                 "shasum": ""
             },
             "require": {
@@ -2600,7 +2600,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2019-02-20T10:29:15+00:00"
+            "time": "2019-03-06T05:40:19+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",

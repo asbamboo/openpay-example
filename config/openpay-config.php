@@ -29,10 +29,10 @@ EnvHelper::set(WxpayEnv::WXPAY_MCH_ID, '1900009851');
 /***************************************************************************************************
  * 数据库配置
  ***************************************************************************************************/
-if(!$Container->has('db')){
-    $DbFactory          = new Factory();
-    $Connection         = require __DIR__ . DIRECTORY_SEPARATOR . 'db-connection.php';
-    $DbFactory->addConnection($Connection);
-    $Container->set('db', $DbFactory);
-}
+// if(!$Container->has('db')){
+//     $DbFactory          = new Factory();
+//     $Connection         = require __DIR__ . DIRECTORY_SEPARATOR . 'db-connection.php';
+//     $DbFactory->addConnection($Connection);
+//     $Container->set('db', $DbFactory);
+// }
 /***************************************************************************************************/

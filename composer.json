@@ -2,6 +2,11 @@
     "name": "asbamboo/openpay-example",
     "description": "openpay-example 是 asbamboo/openpay 项目的具体实现，是支付宝支付、微信支付等第三方支付聚合api接口的服务端代码",
     "type": "project",
+	"autoload" : {
+		"psr-4" : {
+			"asbamboo\\openpay-example\\" : ""
+		}
+	},
     "require": {
     	"php" : "^7.2",
         "asbamboo/autoload": "^1.0",
