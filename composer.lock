@@ -349,12 +349,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/asbamboo/openpay.git",
-                "reference": "126ce14b15bd4859ee588e6d13d27ab313c654c3"
+                "reference": "5fb5ffb8a5a7a8c7913b23fdd8c56a15ceb47f97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asbamboo/openpay/zipball/126ce14b15bd4859ee588e6d13d27ab313c654c3",
-                "reference": "126ce14b15bd4859ee588e6d13d27ab313c654c3",
+                "url": "https://api.github.com/repos/asbamboo/openpay/zipball/5fb5ffb8a5a7a8c7913b23fdd8c56a15ceb47f97",
+                "reference": "5fb5ffb8a5a7a8c7913b23fdd8c56a15ceb47f97",
                 "shasum": ""
             },
             "require": {
@@ -392,7 +392,7 @@
                 "source": "https://github.com/asbamboo/openpay/tree/1.0.0",
                 "issues": "https://github.com/asbamboo/openpay/issues"
             },
-            "time": "2019-03-07T09:12:36+00:00"
+            "time": "2019-03-08T07:15:17+00:00"
         },
         {
             "name": "asbamboo/openpay-alipay",
@@ -400,12 +400,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/asbamboo/openpay-alipay.git",
-                "reference": "944d1dad0e43959c8f376943af45a653ece9d048"
+                "reference": "cb0a9bad9a474fab3dd732614285835847904965"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asbamboo/openpay-alipay/zipball/944d1dad0e43959c8f376943af45a653ece9d048",
-                "reference": "944d1dad0e43959c8f376943af45a653ece9d048",
+                "url": "https://api.github.com/repos/asbamboo/openpay-alipay/zipball/cb0a9bad9a474fab3dd732614285835847904965",
+                "reference": "cb0a9bad9a474fab3dd732614285835847904965",
                 "shasum": ""
             },
             "require": {
@@ -447,7 +447,7 @@
                 "source": "https://github.com/asbamboo/openpay-alipay/tree/1.0.0",
                 "issues": "https://github.com/asbamboo/openpay-alipay/issues"
             },
-            "time": "2019-03-04T02:39:38+00:00"
+            "time": "2019-03-07T12:34:29+00:00"
         },
         {
             "name": "asbamboo/openpay-wxpay",
@@ -1603,12 +1603,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/contracts.git",
-                "reference": "1aa7ab2429c3d594dd70689604b5cf7421254cdf"
+                "reference": "c0827ad2f3e7e4c8d7d40eba9fcc9c79a13fb759"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/contracts/zipball/1aa7ab2429c3d594dd70689604b5cf7421254cdf",
-                "reference": "1aa7ab2429c3d594dd70689604b5cf7421254cdf",
+                "url": "https://api.github.com/repos/symfony/contracts/zipball/c0827ad2f3e7e4c8d7d40eba9fcc9c79a13fb759",
+                "reference": "c0827ad2f3e7e4c8d7d40eba9fcc9c79a13fb759",
                 "shasum": ""
             },
             "require": {
@@ -1616,19 +1616,21 @@
             },
             "require-dev": {
                 "psr/cache": "^1.0",
-                "psr/container": "^1.0"
+                "psr/container": "^1.0",
+                "symfony/polyfill-intl-idn": "^1.10"
             },
             "suggest": {
                 "psr/cache": "When using the Cache contracts",
                 "psr/container": "When using the Service contracts",
                 "symfony/cache-contracts-implementation": "",
+                "symfony/http-client-contracts-implementation": "",
                 "symfony/service-contracts-implementation": "",
                 "symfony/translation-contracts-implementation": ""
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.1-dev"
                 }
             },
             "autoload": {
@@ -1663,7 +1665,7 @@
                 "interoperability",
                 "standards"
             ],
-            "time": "2018-12-05T08:06:11+00:00"
+            "time": "2019-03-07T16:16:38+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
