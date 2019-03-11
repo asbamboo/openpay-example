@@ -1,5 +1,4 @@
 <?php
-use asbamboo\database\Factory;
 use asbamboo\helper\env\Env AS EnvHelper;
 use asbamboo\openpayAlipay\Env AS AlipayEnv;
 use asbamboo\openpayWxpay\Env AS WxpayEnv;
@@ -30,9 +29,7 @@ EnvHelper::set(WxpayEnv::WXPAY_MCH_ID, '1900009851');
  * 数据库配置
  ***************************************************************************************************/
 if(!$Container->has('db')){
-    $DbFactory          = new Factory();
-    $Connection         = require __DIR__ . DIRECTORY_SEPARATOR . 'db-connection.php';
-    $DbFactory->addConnection($Connection);
+    $DbFactory  = require __DIR__ . DIRECTORY_SEPARATOR . 'db-config.php';
     $Container->set('db', $DbFactory);
 }
 /***************************************************************************************************/
