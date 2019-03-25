@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bf034f7410f595cc442b39ef2571fdf8",
+    "content-hash": "b8b5ffa019c2b8913096dedd6bbf64a9",
     "packages": [
         {
             "name": "asbamboo/api",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/asbamboo/api.git",
-                "reference": "79943078a2c9deaedc8b18a1511678bf29336ad4"
+                "reference": "177b69f147244d0108270b794628576a34dfe1eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asbamboo/api/zipball/79943078a2c9deaedc8b18a1511678bf29336ad4",
-                "reference": "79943078a2c9deaedc8b18a1511678bf29336ad4",
+                "url": "https://api.github.com/repos/asbamboo/api/zipball/177b69f147244d0108270b794628576a34dfe1eb",
+                "reference": "177b69f147244d0108270b794628576a34dfe1eb",
                 "shasum": ""
             },
             "require": {
@@ -42,12 +42,12 @@
                     "email": "licy2013@aliyun.com"
                 }
             ],
-            "description": "一个可以自动生成api文档的api模块",
+            "description": "asbamboo/api 是用来简化Web API接口开发一个辅助模块",
             "support": {
                 "source": "https://github.com/asbamboo/api/tree/1.0.0",
                 "issues": "https://github.com/asbamboo/api/issues"
             },
-            "time": "2019-03-04T01:54:35+00:00"
+            "time": "2019-03-25T02:01:56+00:00"
         },
         {
             "name": "asbamboo/autoload",
@@ -95,16 +95,16 @@
         },
         {
             "name": "asbamboo/console",
-            "version": "1.0.0.x-dev",
+            "version": "1.0.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/asbamboo/console.git",
-                "reference": "d53204c756e45651d23a52a2c6a6934f13138d06"
+                "reference": "b696162a819af8fbbbaef8e9e5a4dde7c72cac99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asbamboo/console/zipball/d53204c756e45651d23a52a2c6a6934f13138d06",
-                "reference": "d53204c756e45651d23a52a2c6a6934f13138d06",
+                "url": "https://api.github.com/repos/asbamboo/console/zipball/b696162a819af8fbbbaef8e9e5a4dde7c72cac99",
+                "reference": "b696162a819af8fbbbaef8e9e5a4dde7c72cac99",
                 "shasum": ""
             },
             "require": {
@@ -126,10 +126,10 @@
                 }
             ],
             "support": {
-                "source": "https://github.com/asbamboo/console/tree/v1.0.0",
+                "source": "https://github.com/asbamboo/console/tree/1.0.1",
                 "issues": "https://github.com/asbamboo/console/issues"
             },
-            "time": "2018-09-10T07:02:17+00:00"
+            "time": "2019-03-17T09:43:39+00:00"
         },
         {
             "name": "asbamboo/database",
@@ -349,12 +349,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/asbamboo/openpay.git",
-                "reference": "5fb5ffb8a5a7a8c7913b23fdd8c56a15ceb47f97"
+                "reference": "74bb7d3eb533d805bd58f46f901876a302e4f744"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asbamboo/openpay/zipball/5fb5ffb8a5a7a8c7913b23fdd8c56a15ceb47f97",
-                "reference": "5fb5ffb8a5a7a8c7913b23fdd8c56a15ceb47f97",
+                "url": "https://api.github.com/repos/asbamboo/openpay/zipball/74bb7d3eb533d805bd58f46f901876a302e4f744",
+                "reference": "74bb7d3eb533d805bd58f46f901876a302e4f744",
                 "shasum": ""
             },
             "require": {
@@ -392,7 +392,7 @@
                 "source": "https://github.com/asbamboo/openpay/tree/1.0.0",
                 "issues": "https://github.com/asbamboo/openpay/issues"
             },
-            "time": "2019-03-08T07:15:17+00:00"
+            "time": "2019-03-25T03:24:19+00:00"
         },
         {
             "name": "asbamboo/openpay-alipay",
@@ -400,12 +400,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/asbamboo/openpay-alipay.git",
-                "reference": "cb0a9bad9a474fab3dd732614285835847904965"
+                "reference": "ca81d5671546f9f88402353602c1fcde94f6dd32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asbamboo/openpay-alipay/zipball/cb0a9bad9a474fab3dd732614285835847904965",
-                "reference": "cb0a9bad9a474fab3dd732614285835847904965",
+                "url": "https://api.github.com/repos/asbamboo/openpay-alipay/zipball/ca81d5671546f9f88402353602c1fcde94f6dd32",
+                "reference": "ca81d5671546f9f88402353602c1fcde94f6dd32",
                 "shasum": ""
             },
             "require": {
@@ -447,7 +447,7 @@
                 "source": "https://github.com/asbamboo/openpay-alipay/tree/1.0.0",
                 "issues": "https://github.com/asbamboo/openpay-alipay/issues"
             },
-            "time": "2019-03-07T12:34:29+00:00"
+            "time": "2019-03-14T08:12:41+00:00"
         },
         {
             "name": "asbamboo/openpay-wxpay",
@@ -455,12 +455,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/asbamboo/openpay-wxpay.git",
-                "reference": "ac42e9189a2137cc79a89e3f841794631ce5cc85"
+                "reference": "0142f90338522fa37f372a2c139b556bada9d324"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asbamboo/openpay-wxpay/zipball/ac42e9189a2137cc79a89e3f841794631ce5cc85",
-                "reference": "ac42e9189a2137cc79a89e3f841794631ce5cc85",
+                "url": "https://api.github.com/repos/asbamboo/openpay-wxpay/zipball/0142f90338522fa37f372a2c139b556bada9d324",
+                "reference": "0142f90338522fa37f372a2c139b556bada9d324",
                 "shasum": ""
             },
             "require": {
@@ -502,7 +502,7 @@
             "support": {
                 "source": "https://github.com/asbamboo/openpay-wxpay/tree/1.0.0"
             },
-            "time": "2019-02-28T05:14:14+00:00"
+            "time": "2019-03-14T02:58:44+00:00"
         },
         {
             "name": "asbamboo/router",
@@ -510,12 +510,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/asbamboo/router.git",
-                "reference": "f1098e74ca40f7384a6d38870bef21fa4a698893"
+                "reference": "d613125e411637faa942e5e0ca3f3371316c74f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/asbamboo/router/zipball/f1098e74ca40f7384a6d38870bef21fa4a698893",
-                "reference": "f1098e74ca40f7384a6d38870bef21fa4a698893",
+                "url": "https://api.github.com/repos/asbamboo/router/zipball/d613125e411637faa942e5e0ca3f3371316c74f4",
+                "reference": "d613125e411637faa942e5e0ca3f3371316c74f4",
                 "shasum": ""
             },
             "require": {
@@ -540,7 +540,7 @@
                 "source": "https://github.com/asbamboo/router/tree/1.0.1",
                 "issues": "https://github.com/asbamboo/router/issues"
             },
-            "time": "2019-03-06T08:14:51+00:00"
+            "time": "2019-03-14T03:26:00+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -616,12 +616,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/cache.git",
-                "reference": "6f9810e194acace22e360a1398cf228132e5b4b2"
+                "reference": "9c22e29b271426c3462f1e53777d1e9a1f16d84c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/6f9810e194acace22e360a1398cf228132e5b4b2",
-                "reference": "6f9810e194acace22e360a1398cf228132e5b4b2",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/9c22e29b271426c3462f1e53777d1e9a1f16d84c",
+                "reference": "9c22e29b271426c3462f1e53777d1e9a1f16d84c",
                 "shasum": ""
             },
             "require": {
@@ -632,7 +632,7 @@
             },
             "require-dev": {
                 "alcaeus/mongo-php-adapter": "^1.1",
-                "doctrine/coding-standard": "^5.0",
+                "doctrine/coding-standard": "^6.0",
                 "mongodb/mongodb": "^1.1",
                 "phpunit/phpunit": "^7.0",
                 "predis/predis": "~1.0"
@@ -691,7 +691,7 @@
                 "riak",
                 "xcache"
             ],
-            "time": "2019-02-11T09:43:22+00:00"
+            "time": "2019-03-17T19:17:10+00:00"
         },
         {
             "name": "doctrine/collections",
@@ -699,21 +699,22 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/collections.git",
-                "reference": "a99d26d8fd2163c284ba55249c15fdc98c6da3b3"
+                "reference": "acc35813077be497dc7f658af76729fa456444e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/collections/zipball/a99d26d8fd2163c284ba55249c15fdc98c6da3b3",
-                "reference": "a99d26d8fd2163c284ba55249c15fdc98c6da3b3",
+                "url": "https://api.github.com/repos/doctrine/collections/zipball/acc35813077be497dc7f658af76729fa456444e3",
+                "reference": "acc35813077be497dc7f658af76729fa456444e3",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1"
+                "php": "^7.1.3"
             },
             "require-dev": {
-                "doctrine/coding-standard": "^5.0",
+                "doctrine/coding-standard": "^6.0",
                 "phpstan/phpstan-shim": "^0.9.2",
-                "phpunit/phpunit": "^7.0"
+                "phpunit/phpunit": "^7.0",
+                "vimeo/psalm": "^3.2.2"
             },
             "type": "library",
             "extra": {
@@ -760,7 +761,7 @@
                 "iterators",
                 "php"
             ],
-            "time": "2019-03-05T19:01:58+00:00"
+            "time": "2019-03-24T18:21:39+00:00"
         },
         {
             "name": "doctrine/common",
@@ -768,12 +769,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/common.git",
-                "reference": "bcb317d9ced551fa3c1138701d7d8db69df45525"
+                "reference": "9f57494fc8b85b01c686b5a6000414978e553dab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/common/zipball/bcb317d9ced551fa3c1138701d7d8db69df45525",
-                "reference": "bcb317d9ced551fa3c1138701d7d8db69df45525",
+                "url": "https://api.github.com/repos/doctrine/common/zipball/9f57494fc8b85b01c686b5a6000414978e553dab",
+                "reference": "9f57494fc8b85b01c686b5a6000414978e553dab",
                 "shasum": ""
             },
             "require": {
@@ -789,7 +790,9 @@
             },
             "require-dev": {
                 "doctrine/coding-standard": "^1.0",
-                "phpunit/phpunit": "^6.3",
+                "phpstan/phpstan": "^0.11",
+                "phpstan/phpstan-phpunit": "^0.11",
+                "phpunit/phpunit": "^7.0",
                 "squizlabs/php_codesniffer": "^3.0",
                 "symfony/phpunit-bridge": "^4.0.5"
             },
@@ -841,7 +844,7 @@
                 "doctrine",
                 "php"
             ],
-            "time": "2019-02-11T09:43:07+00:00"
+            "time": "2019-03-13T04:44:40+00:00"
         },
         {
             "name": "doctrine/dbal",
@@ -849,12 +852,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "77ecc63741f353b9821e6e3a70afa6aa86cf03f5"
+                "reference": "546cd67495de87a7406cbdb4580730068c696cab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/77ecc63741f353b9821e6e3a70afa6aa86cf03f5",
-                "reference": "77ecc63741f353b9821e6e3a70afa6aa86cf03f5",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/546cd67495de87a7406cbdb4580730068c696cab",
+                "reference": "546cd67495de87a7406cbdb4580730068c696cab",
                 "shasum": ""
             },
             "require": {
@@ -864,9 +867,9 @@
                 "php": "^7.2"
             },
             "require-dev": {
-                "doctrine/coding-standard": "^5.0",
+                "doctrine/coding-standard": "^6.0",
                 "jetbrains/phpstorm-stubs": "^2018.1.2",
-                "phpstan/phpstan": "^0.11.1",
+                "phpstan/phpstan": "^0.11.3",
                 "phpunit/phpunit": "^8.0",
                 "symfony/console": "^2.0.5|^3.0|^4.0",
                 "symfony/phpunit-bridge": "^3.4.5|^4.0.5"
@@ -923,7 +926,7 @@
                 "php",
                 "queryobject"
             ],
-            "time": "2019-03-05T08:47:05+00:00"
+            "time": "2019-03-17T22:29:55+00:00"
         },
         {
             "name": "doctrine/event-manager",
@@ -931,12 +934,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/event-manager.git",
-                "reference": "6e809efd636573f689f477547ca823c8fda3d0bd"
+                "reference": "45e6c7bc79b5f46e601236ebd6e69623e528d312"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/event-manager/zipball/6e809efd636573f689f477547ca823c8fda3d0bd",
-                "reference": "6e809efd636573f689f477547ca823c8fda3d0bd",
+                "url": "https://api.github.com/repos/doctrine/event-manager/zipball/45e6c7bc79b5f46e601236ebd6e69623e528d312",
+                "reference": "45e6c7bc79b5f46e601236ebd6e69623e528d312",
                 "shasum": ""
             },
             "require": {
@@ -946,7 +949,7 @@
                 "doctrine/common": "<2.9@dev"
             },
             "require-dev": {
-                "doctrine/coding-standard": "^5.0",
+                "doctrine/coding-standard": "^6.0",
                 "phpunit/phpunit": "^7.0"
             },
             "type": "library",
@@ -999,7 +1002,7 @@
                 "event system",
                 "events"
             ],
-            "time": "2019-02-11T09:44:25+00:00"
+            "time": "2019-03-17T19:24:10+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -1074,23 +1077,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/instantiator.git",
-                "reference": "16ca33ecc67a625de250f476531dfe5de4c32ff2"
+                "reference": "a2c590166b2133a4633738648b6b064edae0814a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/16ca33ecc67a625de250f476531dfe5de4c32ff2",
-                "reference": "16ca33ecc67a625de250f476531dfe5de4c32ff2",
+                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/a2c590166b2133a4633738648b6b064edae0814a",
+                "reference": "a2c590166b2133a4633738648b6b064edae0814a",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1"
             },
             "require-dev": {
-                "doctrine/coding-standard": "^5.0",
+                "doctrine/coding-standard": "^6.0",
                 "ext-pdo": "*",
                 "ext-phar": "*",
                 "phpbench/phpbench": "^0.13",
-                "phpstan/phpstan-shim": "^0.9.2",
+                "phpstan/phpstan-phpunit": "^0.11",
+                "phpstan/phpstan-shim": "^0.11",
                 "phpunit/phpunit": "^7.0"
             },
             "type": "library",
@@ -1121,7 +1125,7 @@
                 "constructor",
                 "instantiate"
             ],
-            "time": "2019-02-20T06:21:04+00:00"
+            "time": "2019-03-17T17:37:11+00:00"
         },
         {
             "name": "doctrine/lexer",
@@ -1530,12 +1534,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "122a9f0a0c653ecba733ce3b330b27035042d9c6"
+                "reference": "33ba4d57d5e75181f1cd10049e9777b0bc239937"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/122a9f0a0c653ecba733ce3b330b27035042d9c6",
-                "reference": "122a9f0a0c653ecba733ce3b330b27035042d9c6",
+                "url": "https://api.github.com/repos/symfony/console/zipball/33ba4d57d5e75181f1cd10049e9777b0bc239937",
+                "reference": "33ba4d57d5e75181f1cd10049e9777b0bc239937",
                 "shasum": ""
             },
             "require": {
@@ -1546,6 +1550,7 @@
             },
             "conflict": {
                 "symfony/dependency-injection": "<3.4",
+                "symfony/event-dispatcher": "<4.3",
                 "symfony/process": "<3.3"
             },
             "provide": {
@@ -1555,9 +1560,10 @@
                 "psr/log": "~1.0",
                 "symfony/config": "~3.4|~4.0",
                 "symfony/dependency-injection": "~3.4|~4.0",
-                "symfony/event-dispatcher": "~3.4|~4.0",
+                "symfony/event-dispatcher": "^4.3",
                 "symfony/lock": "~3.4|~4.0",
-                "symfony/process": "~3.4|~4.0"
+                "symfony/process": "~3.4|~4.0",
+                "symfony/var-dumper": "^4.3"
             },
             "suggest": {
                 "psr/log": "For using the console logger",
@@ -1595,7 +1601,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2019-02-23T15:22:31+00:00"
+            "time": "2019-03-24T10:32:26+00:00"
         },
         {
             "name": "symfony/contracts",
@@ -1603,12 +1609,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/contracts.git",
-                "reference": "c0827ad2f3e7e4c8d7d40eba9fcc9c79a13fb759"
+                "reference": "a4f68e9d0d5eebd8ccf520eed67304f8a4efdd22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/contracts/zipball/c0827ad2f3e7e4c8d7d40eba9fcc9c79a13fb759",
-                "reference": "c0827ad2f3e7e4c8d7d40eba9fcc9c79a13fb759",
+                "url": "https://api.github.com/repos/symfony/contracts/zipball/a4f68e9d0d5eebd8ccf520eed67304f8a4efdd22",
+                "reference": "a4f68e9d0d5eebd8ccf520eed67304f8a4efdd22",
                 "shasum": ""
             },
             "require": {
@@ -1665,7 +1671,7 @@
                 "interoperability",
                 "standards"
             ],
-            "time": "2019-03-07T16:16:38+00:00"
+            "time": "2019-03-19T18:41:07+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -2526,12 +2532,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "90cff07c1fbadf8ffb404774ad98c845632b443f"
+                "reference": "06df2aab77f36a47aec874181335ec573a79f242"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/90cff07c1fbadf8ffb404774ad98c845632b443f",
-                "reference": "90cff07c1fbadf8ffb404774ad98c845632b443f",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/06df2aab77f36a47aec874181335ec573a79f242",
+                "reference": "06df2aab77f36a47aec874181335ec573a79f242",
                 "shasum": ""
             },
             "require": {
@@ -2602,7 +2608,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2019-03-06T05:40:19+00:00"
+            "time": "2019-03-18T12:48:21+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
